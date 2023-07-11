@@ -10,11 +10,11 @@ const request = http.request(options, (response) => {
             process.stdout.write(y);
         })
     }
-    // else {
-    //     console.log(response.statusCode);
-    // }
+    else {
+        console.log(response.statusCode);
+    }
 })
 
-// .on('error', (e) => {
-//     console.log(`errore codice ${e}`);
-// });
+.on('error', (e) => {
+    console.log(`errore codice ${e}`);
+});
