@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "password-generator": "^2.3.2"
+  }
+}
