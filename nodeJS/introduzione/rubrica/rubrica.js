@@ -74,30 +74,3 @@ function searchContatto(){
     })
 
 }
-
-
-//Menu applicazione
-// avvio();
-
-// console.log('CaSTAgna'.toUpperCase().indexOf('A'));
-
-// let nome = 'arrigo';
-// let cognome = 'sacchi';
-
-// stringa = `$nome $cognome`;
-
-// console.log(stringa);
-
-let res = 0;
-let valore = 2;
-
-switch(valore){
-    case 1:
-        res=3;
-    case 2:
-        res=4;
-    case 3:
-        res=5;
-}
-
-console.log(res);
